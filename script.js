@@ -1,5 +1,9 @@
 function firstChar(text) {
   // your code here
+	if (text.charAt(0) != ' ') {
+		return text.charAt(0);
+	}
+	return '';
 }
 
 // Do not change the code below
